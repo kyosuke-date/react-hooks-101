@@ -1,5 +1,5 @@
 import React, { useState, useContext } from 'react';
-import { CREATE_EVENT, DELETE_ALL_EVENTS, ADD_OPERATION_LOG, DELETE_OPERATION_LOGS, DELETE_ALL_OPERATION_LOGS } from '../actions/index'
+import { CREATE_EVENT, DELETE_ALL_EVENTS, ADD_OPERATION_LOG, DELETE_ALL_OPERATION_LOGS } from '../actions/index'
 import AppContext from '../contexts/AppContext';
 import { timeCurrentIso8601 } from '../utils';
 
